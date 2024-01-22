@@ -7,8 +7,7 @@ def safe_print_list(my_list=[], x=0):
             my_elements += str(i)
             if count == x:
                 break
-        print(my_elements, end="")
-        print("nb_print: " + str(count))
+        print(my_elements)
     except IndexError:
         print()
     return count
