@@ -4,5 +4,6 @@ def safe_print_list(my_list=[]):
     for i in my_list:
         x += 1
         my_elements += str(i)
-    return "my_elements:{}, x:{}".format(my_elements,x) 
+    print("x = {}".format(x))
+    print("my_elements = {}".format(my_elements))
 
