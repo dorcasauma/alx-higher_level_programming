@@ -1,12 +1,14 @@
-#!/usr/bin/python3
-def safe_print_list(my_list=[]):
+def safe_print_list(my_list=[], x=0):
     try:
-        x = 0
+        count = 0
         my_elements = ""
         for i in my_list:
-            x += 1
+            count += 1
             my_elements += str(i)
-        print("x = {}".format(x))
-        print("my_elements = {}".format(my_elements))
+            if count == x:
+                break
+        print(my_elements, end="")
+        print("nb_print: " + str(count))
     except IndexError:
         print()
+    return count
