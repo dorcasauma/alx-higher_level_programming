@@ -3,7 +3,7 @@
 USE information_schema;
 
 -- Parameter for the database name
-SET @dbname = 'your_database_name';
+SET @dbname = 'hbtn_0c_0';
 
 -- Query to retrieve table names
 SELECT TABLE_NAME AS `Tables`
