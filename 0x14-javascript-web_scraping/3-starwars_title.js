@@ -1,3 +1,6 @@
+#!/usr/bin/node
+
+
 const request = require('request');
 
 // Function to fetch and print the title of a Star Wars movie
