@@ -16,7 +16,7 @@ function writeToFile(filePath, content) {
 }
 
 
-// Check if file path and content are provided as arguments
+// Check if file path and content are provided as argument
 if (process.argv.length !== 4) {
     console.error('Usage: node script.js <file_path> <content>');
 } else {
