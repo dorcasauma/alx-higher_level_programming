@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
+
 const fs = require('fs');
 
 // Function to read and print the content of a file
@@ -12,6 +13,7 @@ function readFile(filePath) {
         }
     });
 }
+
 
 // Check if file path is provided as argument
 if (process.argv.length !== 3) {
